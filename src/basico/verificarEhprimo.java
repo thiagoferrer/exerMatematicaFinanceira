@@ -6,9 +6,9 @@ public class verificarEhprimo {
         int verificar = 28;
 
         if (ehprimo(verificar)) {
-            System.out.println(verificar + " é primo");
+            System.out.println("\nO resultado: " + verificar + " é primo");
         } else {
-            System.out.println(verificar + " Não é primo");
+            System.out.println("\nO resultado: " + verificar + " não é primo");
         }
 
     }
